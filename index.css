@@ -1,0 +1,308 @@
+body
+{
+    margin:0;
+    padding:0;
+    background: #fff;
+    overflow-x: hidden;
+}
+.blink {
+  animation: blinker 4s linear infinite;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.A {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  padding: 2px;
+  margin: 1;
+  font-size: 20px;
+  align-items: center;
+  height: 75px;
+  cursor: pointer;
+  font-weight: 500;
+  
+}
+.AAA {
+  font-size: 16px;
+  color: rgb(0, 200, 255);
+  font-weight: 600;
+}
+.AAA a
+{
+  color: rgb(0, 200, 255);
+  text-align: center;
+}
+
+/* .AAA:hover {
+  font-size: 20px;
+  color: rgb(17, 0, 255);
+  transition: 1.5s;
+  margin-left: -10px;
+  margin-top: 10px;
+  
+  font-family: cursive;
+} */
+
+
+.AA input {
+  text-align: right;
+  border-radius: 8px;
+  border: none;
+  padding: 4px;
+  margin: 3px;
+  margin-top: 9px;
+  font-size: 16px;
+}
+.AA input:hover {
+  background-color: rgb(121, 246, 59);
+  color: white;
+}
+
+/* marquee css */
+.marquee {
+  background-color: rgb(0, 0, 0);
+  height: 75px;
+  color: rgb(223, 27, 27);
+  display: flex;
+  align-items: center;
+}
+.marquee span {
+  color: rgb(175, 0, 244);
+  font-weight: 400;
+  font-size: 26px;
+}
+.g {
+  
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+  color:goldenrod;
+}
+.o {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  color: rgb(0, 183, 255);
+  
+}
+.l {
+  font-size: 30px;
+ text-align: center;
+ align-items: center;
+ color: rgb(3, 187, 36);
+}
+.D {
+  font-size: 45px;
+ text-align: center;
+ align-items: center;
+ color: silver;
+}
+.buy-gold
+{
+  
+  text-align: center;
+  
+}
+.h-line
+{
+  
+  border-bottom: 4px solid rgb(143, 138, 138);
+  margin-top: -13px;
+  width: 28%;
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  justify-content: center;
+  
+}
+div h4.para
+/* {
+  overflow-wrap: break-word;
+  text-align: justify;
+} */
+
+/* footer css */
+.foot
+{
+  background-color:rgb(0, 0, 0);
+  color: rgb(235, 255, 255);
+}
+.back-to-top
+{
+  position: fixed;
+  background:#feb62a;
+  color: #fff;
+  width:44px;
+  height:44px;
+  text-align:center;
+  line-height: 2;
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 11px;
+  transition: background 0.5s rgb(224, 109, 109);
+  z-index: 11;
+}
+.cart-img
+{
+  height:35%;
+  width: 20%;
+  border-radius: 18px;
+}
+.card-button
+{
+       margin-bottom:20px;
+       border-radius:5px;
+       margin-left:80px;
+       position:absolute;
+       margin-top:155px;
+       height:30px;
+       width:80px;
+     
+}
+.wts
+{
+  font-weight: 200;
+  font-size: 16px;
+  
+}
+
+
+
+/* ****************Service dropdown css*********************** */
+.moreoptionDisplay-container
+{
+    position: relative;
+    height: 1px;
+    display: none;
+    
+}
+.moreoption-content{
+    position: absolute;
+    margin-top:8px;
+    width: 100px;
+    margin-left: -10px;
+    background-color: white;
+    color: black;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.2),
+    5px 5px 10px rgba(0,0,0,0.2);
+    border-radius:4px;
+    z-index: 9;
+    overflow: hidden;
+
+}
+.moreoption{
+    display: flex;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.moreoption a{
+    padding-left:2px;
+    color: black;
+    font-weight:700;
+    
+}
+
+.moreoption a:hover{
+    
+    color:rgb(70, 239, 19);
+    font-weight: 500;
+    
+}
+.angledownIcon:hover .moreoptionDisplay-container{
+    display: block;
+
+}
+
+.moreoption img
+{
+    height:20px;
+    width:20px;
+    
+}
+
+.gold
+{
+    /* background:radial-gradient(red,green,yellow,pink) */
+    
+    /* background:linear-gradient(rgb(255, 74, 74),rgb(132, 255, 132),yellow,skyblue,yellow,rgb(132, 255, 132),rgb(246, 46, 46)); */
+    background-image: url('../Image/resized-image-Promo.jpeg');
+}
+.ggold
+{
+    margin:18px;
+    padding:01px;
+    width: 85%;
+    height:320px;
+    
+}
+.ggold img
+{
+    height: 240px;
+    width: 100%;
+    
+}
+.ggold .heading 
+{
+    margin:0;
+    padding: 0;
+    margin-left:15px;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+.ggold .second-heading
+{   margin:0;
+    padding: 0;
+    margin-left:15px;
+    margin-top: -4px;
+    color: black;
+    font-weight: 500;
+}
+.ggold .second-heading del
+{
+    margin: 7px;
+    color:rgb(160, 156, 156)
+}
+.ggold .second-heading b
+{
+    font-weight:500;
+    color: green;
+    margin: 9px;
+}
+
+.ggold label
+{   margin:0;
+    padding: 0;
+    margin-left: 15px;
+    font-size: 13px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.21);
+    width: 60px;
+    font-weight: 500;
+    border-radius: 4%;
+}
+
+.gold .gold-cartsection
+{
+    margin-left:10px ;
+}
+
+
+
+
+

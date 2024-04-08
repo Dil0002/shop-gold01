@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+.contact-form
+{
+    margin-top:130px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.contact-form .heading
+{
+    background-color: #e6e6e6;
+    text-align:justify;
+    border-radius:10px;
+}
+  
+.diamond-para p
+{
+    text-align: justify;
+    margin:25px;
+}
+  
+  .Diamond img {
+    width: 100%;
+  }
+
+  div
+{
+    
+    unicode-bidi: isolate;
+}
+.ver
+{
+    border-left: 1px solid rgb(255, 255, 255);
+  height: 500px;
+}
+.buy-section
+{
+    background-color: #cdcbc7;
+    
+}
+.buy-section .h-home
+{
+    background:rgb(165, 222, 244);
+}
+
+
+.contact-section
+{
+    font-size: 20px;
+}
+
+
+.contact-row
+{
+    margin-top:5%;
+    
+}
+.form-group
+{
+    margin-bottom:15px;
+}
+.form-control {
+  
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    /* -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
+}
+
+
+  

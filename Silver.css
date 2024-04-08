@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow-x: hidden;
+  }
+  .service-tag .service-tag-para {
+    text-align: justify;
+    padding: 15px;
+    margin: 1px;
+    word-spacing: 3px;
+  }
+  .service-tag span 
+  {
+
+    color: rgb(0, 140, 255);
+    font-weight: 600;
+  }
+
+  .service-tag b
+  {
+
+    color: rgb(0, 140, 255);
+    font-weight: 600;
+  }
+
+  .span-para-choose {
+    margin: 0px;
+    font-weight: 700;
+    text-align: justify;
+    padding: 0px;
+  }
+  .span-para-choose-para {
+    text-align: justify;
+    margin: 10px;
+  }
+  .selling-tag i {
+    margin: 0px;
+    padding: 8px;
+  }
+  
+  
+  .Silver img {
+    width: 100%;
+  }
+  
